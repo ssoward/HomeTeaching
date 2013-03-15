@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+    <!DOCTYPE jasperReport
+  PUBLIC "-//JasperReports//DTD Report Design//EN"
+  "http://jasperreports.sourceforge.net/dtds/jasperreport.dtd">
+    <jasperReport name="jasper_test">
+      <!-- our fields -->
+      <queryString><![CDATA[select * from EVENTS]]></queryString>
+      <field name="title" class="java.lang.String"/>
+      <field name="EVENT_ID" class="java.lang.String"/>
+      <field name="EVENT_DATE" class="java.lang.String"/>
+      <title>
+
+        <band height="50">
+          <staticText>
+            <reportElement x="0" y="0" width="180" height="15"/>
+            <textElement/>
+            <text>
+              <![CDATA[Webwork JasperReports Sample]]>
+            </text>
+          </staticText>
+        </band>
+      </title>
+      <pageHeader>
+        <band></band>
+      </pageHeader>
+      <columnHeader>
+        <band height="20">
+          <staticText>
+            <reportElement x="90" y="0" width="180" height="20"/>
+            <textElement>
+              <font isUnderline="true"/>
+            </textElement>
+            <text><![CDATA[ID]]></text>
+          </staticText>
+          <staticText>
+            <reportElement x="150" y="0" width="180" height="20"/>
+            <textElement>
+              <font isUnderline="true"/>
+            </textElement>
+            <text><![CDATA[EVENT DATE]]></text>
+          </staticText>
+          <staticText>
+            <reportElement x="270" y="0" width="180" height="20"/>
+            <textElement>
+              <font isUnderline="true"/>
+            </textElement>
+            <text><![CDATA[TITLE]]></text>
+          </staticText>
+        </band>
+      </columnHeader>
+      <detail>
+        <band height="20">
+          <textField>
+            <reportElement x="90" y="0" width="180" height="15"/>
+            <textElement/>
+            <textFieldExpression>
+              <![CDATA[$F{EVENT_ID}]]>
+            </textFieldExpression>
+          </textField>
+          <textField>
+            <reportElement x="150" y="0" width="180" height="15"/>
+            <textElement/>
+            <textFieldExpression>
+              <![CDATA[$F{EVENT_DATE}]]>
+            </textFieldExpression>
+          </textField>
+          <textField>
+            <reportElement x="270" y="0" width="180" height="15"/>
+            <textElement/>
+            <textFieldExpression>
+              <![CDATA[$F{title}]]>
+            </textFieldExpression>
+          </textField>
+        </band>
+      </detail>
+      <columnFooter>
+        <band></band>
+      </columnFooter>
+      <pageFooter>
+        <band height="15">
+          <staticText>
+            <reportElement x="0" y="0" width="40" height="15"/>
+            <textElement/>
+            <text>
+              <![CDATA[Page:]]>
+            </text>
+          </staticText>
+          <textField>
+            <reportElement x="40" y="0" width="100" height="15"/>
+            <textElement/>
+            <textFieldExpression class="java.lang.Integer">
+              <![CDATA[$V{PAGE_NUMBER}]]>
+            </textFieldExpression>
+          </textField>
+        </band>
+      </pageFooter>
+      <summary>
+        <band></band>
+      </summary>
+    </jasperReport>
+
+ 

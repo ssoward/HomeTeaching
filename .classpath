@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/scottsoward/sandbox/Workspace/HT/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="/Users/scottsoward/sandbox/Workspace/HT/lib/mysql-connector-java-3.1.6-bin.jar"/>
+	<classpathentry kind="lib" path="/Users/scottsoward/sandbox/Workspace/HT/lib/mail.jar"/>
+	<classpathentry kind="lib" path="/Users/scottsoward/sandbox/Workspace/HT/lib/activation.jar"/>
+	<classpathentry kind="lib" path="/Users/scottsoward/sandbox/Workspace/HT/lib/junit.jar"/>
+	<classpathentry kind="lib" path="/Users/scottsoward/sandbox/Workspace/HT/lib/jasperreports-1.2.7.jar"/>
+	<classpathentry kind="lib" path="/Users/scottsoward/sandbox/Workspace/HT/lib/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="/Users/scottsoward/sandbox/Workspace/HT/lib/commons-beanutils-1.7.0.jar"/>
+	<classpathentry kind="lib" path="/Users/scottsoward/sandbox/Workspace/HT/lib/commons-collections-2.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/scottsoward/sandbox/Workspace/HT/lib/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="/Users/scottsoward/sandbox/Workspace/HT/lib/commons-logging-1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/scottsoward/sandbox/Workspace/HT/lib/commons-digester-1.7.jar"/>
+	<classpathentry kind="lib" path="/Users/scottsoward/sandbox/Workspace/HT/lib/cglib-2.1.3.jar"/>
+	<classpathentry kind="lib" path="/Users/scottsoward/sandbox/Workspace/HT/lib/cglib-2.1_3.jar"/>
+	<classpathentry kind="lib" path="/Users/scottsoward/sandbox/Workspace/HT/lib/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="/Users/scottsoward/sandbox/Workspace/HT/lib/jta-1.0.1B.jar"/>
+	<classpathentry kind="lib" path="/Users/scottsoward/sandbox/Workspace/HT/lib/itext-1.3.1.jar"/>
+	<classpathentry kind="lib" path="/Users/scottsoward/sandbox/Workspace/HT/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/Users/scottsoward/sandbox/Workspace/HT/lib/asm.jar"/>
+	<classpathentry kind="lib" path="/Users/scottsoward/sandbox/Workspace/HT/lib/mysql-connector-java-3.1.14.jar"/>
+	<classpathentry kind="lib" path="/Users/scottsoward/sandbox/Workspace/HT/lib/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="/Users/scottsoward/sandbox/Workspace/HT/lib/log4j-1.2.11.jar"/>
+	<classpathentry kind="lib" path="/Users/scottsoward/sandbox/Workspace/HT/lib/jta.jar"/>
+	<classpathentry kind="lib" path="/Users/scottsoward/sandbox/Workspace/HT/lib/poi-2.5.1-final-20040804.jar"/>
+	<classpathentry kind="lib" path="/Users/scottsoward/sandbox/Workspace/HT/lib/hsqldb-1.8.0.1.jar"/>
+	<classpathentry kind="lib" path="/Users/scottsoward/sandbox/Workspace/HT/lib/hibernate-3.2.4.sp1.jar"/>
+	<classpathentry kind="lib" path="/Users/scottsoward/sandbox/Workspace/HT/lib/opencsv-1.8.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
